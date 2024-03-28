@@ -1,0 +1,34 @@
+ 
+
+ Para criar variáveis dentro do css:
+ :root {
+   --cor01: #fc0fc0;
+ }
+
+ exemplo: h1 {
+   color:var(--cor01);
+ }
+
+
+
+
+ Para importar uma fonte do google
+ @importar .
+ copia o código
+ cola no seu css
+
+ e coloca em baixo @fonte-face {
+   font-family: 'e o nome que vc quiser para sua fonte';
+   src: url(./......)
+ }
+
+
+ /* global seleciona todos elementos do html */
+ * {
+
+ }
+
+ os blocos por padrão, ocupam 100% da tela;
+
+
+ line-height = é o espaçamento entre linhas.
