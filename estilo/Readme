@@ -32,3 +32,16 @@
 
 
  line-height = é o espaçamento entre linhas.
+
+
+
+ Para subir um projeto pronto para o github
+ ====================================================
+
+ Abre o projeto no vs code, abre o terminal
+ 1- git init
+ 2- git remote add origin https://github.com/nomedaorganização/nomedoprojeto.git
+ 3- git add *
+ 4- git commit -m "mensagem"
+ 5- git branch -M main
+ 6- git push -u origin main
